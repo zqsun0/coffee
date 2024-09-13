@@ -2,9 +2,9 @@ import { DrinkItem } from '../interface/drink-interface';
 
 // the name and price of drink items
 export const drinkItems: DrinkItem[] = [
-  { name_jp: "コーヒー", name_en: "Coffee", price: 480 },
-  { name_jp: "紅茶", name_en: "Tea", price: 280 },
-  { name_jp: "ミルク", name_en: "Milk", price: 180 },
-  { name_jp: "コーラ", name_en: "Cola", price: 190 },
-  { name_jp: "ビール", name_en: "Beer", price: 580 }
+  {nameJp: 'コーヒー', nameEn: 'coffee', price: 480, countName: 'coffee-count'},
+  {nameJp: '紅茶', nameEn: 'tea', price: 280, countName: 'tea-count'},
+  {nameJp: 'ミルク', nameEn: 'milk', price: 180, countName: 'milk-count'},
+  {nameJp: 'コーラ', nameEn: 'coke', price: 190, countName: 'coke-count'},
+  {nameJp: 'ビール', nameEn: 'beer', price: 580, countName: 'beer-count'},
 ];
